@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@450&family=Roboto:wght@700&display=swap");
 
 .body {
-  background-image: url(../WebD/content/green.jpg);
+  background-image: url(../content/green.jpg);
   /* background-color: #008062; */
   padding-top: 10px;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@
 
 @media only screen and (max-width: 1220px) {
   .body {
-    background-image: url(../WebD/content/green.jpg);
+    background-image: url(../content/green.jpg);
     /* background-color: #008062; */
     padding-top: 10px;
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@
 
 @media only screen and (max-width: 910px) {
   .body {
-    background-image: url(../WebD/content/green.jpg);
+    background-image: url(../content/green.jpg);
     /* background-color: #008062; */
     padding-top: 10px;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@
 
 @media only screen and (max-width: 767px) {
   .body {
-    background-image: url(../WebD/content/green.jpg);
+    background-image: url(../content/green.jpg);
     /* background-color: #008062; */
     padding-top: 10px;
     background-repeat: no-repeat;
@@ -299,7 +299,7 @@
 
 @media only screen and (max-width: 620px) {
   .body {
-    background-image: url(../WebD/content/green.jpg);
+    background-image: url(../content/green.jpg);
     /* background-color: #008062; */
     padding-top: 10px;
     background-repeat: no-repeat;
@@ -388,7 +388,7 @@
 
 @media only screen and (max-width: 400px) {
   .body {
-    background-image: url(../WebD/content/green.jpg);
+    background-image: url(../content/green.jpg);
     /* background-color: #008062; */
     padding-top: 10px;
     background-repeat: no-repeat;
@@ -477,7 +477,7 @@
 
 @media only screen and (max-width: 300px) {
   .body {
-    background-image: url(../WebD/content/green.jpg);
+    background-image: url(../content/green.jpg);
     /* background-color: #008062; */
     padding-top: 10px;
     background-repeat: no-repeat;
