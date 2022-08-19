@@ -1,0 +1,79 @@
+
+/* #img {
+    display: none;
+} */
+/* #column{
+    padding-top: 140px;
+    display: block;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@450&family=Roboto:wght@700&display=swap');
+
+.body{
+    background-image: url(../WebD/content/green.jpg);
+    /* background-color: #008062; */
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-size: 1220px 550px;
+}
+#heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 57px;
+    color: white;
+}
+#subheading{
+    font-family: 'Poppins', sans-serif;
+    /* padding-top: 5px; */
+    font-size: 30px;
+    color: white
+}
+#input{
+    margin-top: 30px;
+    width: 32%;
+    height: 50px;
+}
+#email{
+    margin-right: 10px;
+    border-radius: 4px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+#emailBtn{
+    border-radius: 4px;
+    width: 40%;
+    font-size: 15px;
+    
+}
+#emailPara{
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+#img{
+    width: 20%;
+    padding-top: 150px;
+    display: block;
+}
+#column{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.commonCol{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.icons{
+    height: 50px;
+    padding-bottom: 25px;
+}
+#deskComp{
+    width: 40px;
+}
+.footHead{
+    font-weight: 700;
+    font-size: 20px;
+}
+
