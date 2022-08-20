@@ -4,6 +4,7 @@
   background-image: url(../content/green.jpg);
   /* background-color: #008062; */
   padding-top: 10px;
+  margin-bottom: 40px;
   background-repeat: no-repeat;
 }
 #heading {
@@ -32,6 +33,67 @@
   width: 33%;
   font-size: 17px;
 }
+.dispNone{
+  display: none;
+}
+.spin{
+  display: flex;
+  height: 21px;
+  justify-content: center;
+  align-items: center;
+}
+.wave {
+  width: 1.8px;
+  height: 12px;
+  background: linear-gradient(45deg, cyan, #fff);
+  margin: 3.5px;
+  animation: wave 1s linear infinite;
+  border-radius: 20px;
+}
+.wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.wave:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.wave:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.wave:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.wave:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.wave:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.wave:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+.spin .button__text {
+  visibility: hidden;
+  opacity: 0;
+}
+
 #emailPara {
   color: white;
   padding-left: 5px;

@@ -32,26 +32,30 @@
           aria-describedby="button-addon2"
           name="userEmail"
           id="email"
+          required
         />
-
+        
         <button
           class="btn btn-dark"
           type="button"
           id="emailBtn"
           onclick="SubForm()"
         >
-          Start free trial
+          <div class="fake" id="spinner">
+            
+          </div>
+          <span class="button__text" id="emailBtnText">Start free trial</span>
         </button>
 
         <p class="text-center mt-4" id="emailPara">
           Try Shopify for 14 days, no credit card required. By entering your
-          email, you agree to receive marketing emails from Shopify
+          email, you agree to receive marketing emails from Shopify.
         </p>
       </div>
     </form>
 
     <img
-      src="../content/compShop2.png"
+      src="content/compShop2.png"
       class="mx-auto"
       alt="compShop"
       id="img"
