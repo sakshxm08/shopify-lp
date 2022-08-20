@@ -11,7 +11,11 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link rel="icon" href="../content/shopify_logo.png" type="image/icon type">
+    <link
+      rel="icon"
+      href="../WebD/content/shopify_logo.png"
+      type="image/icon type"
+    />
     <title>Shopify</title>
   </head>
 
@@ -20,7 +24,8 @@
     <p class="text-center mt-2" id="subheading">
       Trusted by over 1,700,000 businesses worldwide
     </p>
-    <form id="myForm">
+    <!-- onsubmit attribute added to prevent submitting form on pressing enter key. Alert added by javascript code. -->
+    <form id="myForm" onsubmit="return false;">
       <div
         class="input-group mb-3 position-absolute start-50 translate-middle"
         id="input"
@@ -34,16 +39,14 @@
           id="email"
           required
         />
-        
+
         <button
           class="btn btn-dark"
           type="button"
           id="emailBtn"
           onclick="SubForm()"
         >
-          <div class="fake" id="spinner">
-            
-          </div>
+          <div class="fake" id="spinner"></div>
           <span class="button__text" id="emailBtnText">Start free trial</span>
         </button>
 
@@ -54,18 +57,13 @@
       </div>
     </form>
 
-    <img
-      src="content/compShop2.png"
-      class="mx-auto"
-      alt="compShop"
-      id="img"
-    />
+    <img src="content/compShop2.png" class="mx-auto" alt="compShop" id="img" />
 
     <div class="mt-5 d-block" id="column">
       <div class="row">
         <div class="col-md commonCol">
           <img
-            src="../content/desktop-mobile-icon.png"
+            src="../WebD Clone/content/desktop-mobile-icon.png"
             class="icons"
             alt=""
             id="deskComp"
@@ -75,10 +73,10 @@
             Free website designs to launch your store quickly and easily
           </p>
         </div>
-        <hr class="horLine">
+        <hr class="horLine" />
         <div class="col-md commonCol">
           <img
-            src="../content/rupee-note-icon.png"
+            src="../WebD Clone/content/rupee-note-icon.png"
             class="icons"
             alt=""
           />
@@ -88,10 +86,10 @@
             secure.
           </p>
         </div>
-        <hr class="horLine">
+        <hr class="horLine" />
         <div class="col-md commonCol">
           <img
-            src="../content/peoples-group-icon.png"
+            src="../WebD Clone/content/peoples-group-icon.png"
             class="icons"
             alt=""
           />
@@ -101,7 +99,7 @@
             stores.
           </p>
         </div>
-        <hr class="horLine">
+        <hr class="horLine" />
       </div>
     </div>
 

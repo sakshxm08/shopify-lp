@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@450&family=Roboto:wght@700&display=swap");
 
 .body {
-  background-image: url(../content/green.jpg);
+  background-image: url(../WebD/content/green.jpg);
   /* background-color: #008062; */
   padding-top: 25px;
   background-repeat: no-repeat;
@@ -36,6 +36,8 @@
 .dispNone{
   display: none;
 }
+
+/*Spinner animation*/
 .spin{
   display: flex;
   height: 21px;
@@ -454,3 +456,4 @@
     margin: 25px 0px 40px;
   }
 }
+
