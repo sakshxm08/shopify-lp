@@ -3,9 +3,9 @@
 .body {
   background-image: url(../content/green.jpg);
   /* background-color: #008062; */
-  padding-top: 10px;
-  margin-bottom: 40px;
+  padding-top: 25px;
   background-repeat: no-repeat;
+  margin-bottom: 40px;
 }
 #heading {
   font-family: "Roboto", sans-serif;
@@ -132,216 +132,116 @@
 
 @media only screen and (max-width: 1220px) {
   .body {
-    background-image: url(../content/green.jpg);
-    /* background-color: #008062; */
-    padding-top: 10px;
-    background-repeat: no-repeat;
-    background-size: 1220px 550px;
-  }
-  #heading {
-    font-family: "Roboto", sans-serif;
-    font-size: 57px;
-    color: white;
-  }
-  #subheading {
-    font-family: "Poppins", sans-serif;
-    /* padding-top: 5px; */
-    font-size: 30px;
-    color: white;
+    background-size: 1220px 560px;
   }
   #input {
-    margin-top: 30px;
     width: 40%;
-    height: 50px;
   }
   #email {
-    margin-right: 10px;
-    border-radius: 4px;
     padding-left: 15px;
     font-size: 14px;
   }
   #emailBtn {
-    border-radius: 4px;
     width: 40%;
     font-size: 14px;
   }
-  #emailPara {
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 14px;
-  }
   #img {
-    width: 20%;
     padding-top: 150px;
-    display: block;
-  }
-  #column {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .commonCol {
-    margin-left: 18px;
-    margin-right: 18px;
-  }
-  .icons {
-    height: 50px;
-    padding-bottom: 25px;
-  }
-  #deskComp {
-    width: 40px;
-  }
-  .footHead {
-    font-weight: 700;
-    font-size: 20px;
-  }
-  .horLine {
-    display: none;
   }
 }
 
-@media only screen and (max-width: 910px) {
+@media only screen and (max-width: 920px) {
   .body {
-    background-image: url(../content/green.jpg);
-    /* background-color: #008062; */
-    padding-top: 10px;
-    background-repeat: no-repeat;
-    background-size: 1220px 550px;
+    background-size: 1220px 630px;
   }
   #heading {
-    font-family: "Roboto", sans-serif;
-    font-size: 57px;
-    color: white;
-  }
-  #subheading {
-    font-family: "Poppins", sans-serif;
-    /* padding-top: 5px; */
-    font-size: 30px;
-    color: white;
-  }
-  #input {
-    margin-top: 30px;
-    width: 60%;
-    height: 50px;
-  }
-  #email {
-    margin-right: 10px;
-    border-radius: 4px;
-    padding-left: 15px;
-    font-size: 13px;
-  }
-  #emailBtn {
-    border-radius: 4px;
-    width: 30%;
-    font-size: 13px;
-  }
-  #emailPara {
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 13px;
-  }
-  #img {
-    width: 20%;
-    padding-top: 130px;
-    display: block;
-  }
-  #column {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .commonCol {
-    margin-left: 18px;
-    margin-right: 18px;
-  }
-  .icons {
-    height: 45px;
-    padding-bottom: 25px;
-  }
-  #deskComp {
-    width: 37px;
-  }
-  .footHead {
-    font-weight: 700;
-    font-size: 18px;
-    height: 48px;
-  }
-  .footMain {
-    font-size: 16px;
-  }
-  .horLine {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .body {
-    background-image: url(../content/green.jpg);
-    /* background-color: #008062; */
-    padding-top: 10px;
-    background-repeat: no-repeat;
-    background-size: 1220px 550px;
-  }
-  #heading {
-    font-family: "Roboto", sans-serif;
-    font-size: 50px;
-    color: white;
     padding-top: 32px;
   }
-  #subheading {
-    font-family: "Poppins", sans-serif;
-    /* padding-top: 5px; */
-    width: 75%;
-    font-size: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-  }
   #input {
-    margin-top: 30px;
     width: 60%;
-    height: 50px;
   }
   #email {
-    margin-right: 10px;
-    border-radius: 4px;
     padding-left: 15px;
     font-size: 13px;
   }
   #emailBtn {
-    border-radius: 4px;
     width: 30%;
     font-size: 13px;
   }
   #emailPara {
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 13px;
+    font-size: 14px;
   }
   #img {
-    width: 25%;
+    width: 32%;
     padding-top: 130px;
-    display: block;
   }
   #column {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    padding-top: 20px;
   }
   .commonCol{
     margin-left: 0px;
     margin-right: 0px;
   }
   .icons {
-    height: 50px;
     width: 40px;
   }
-  #deskComp {
+  .footHead {
+    display: inline;
+    height: 50px;
+    vertical-align: top;
+    margin-left: 18px;
+    font-size: 24px;
+  }
+  .footMain {
+    font-size: 20px;
+  }
+  .horLine {
+    display: block;
+    margin: 25px 0px 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .body {
+    background-size: 1220px 550px;
+  }
+  #heading {
+    font-size: 50px;
+    padding-top: 32px;
+  }
+  #subheading {
+    width: 75%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #input {
+    width: 60%;
+  }
+  #email {
+    padding-left: 15px;
+    font-size: 13px;
+  }
+  #emailBtn {
+    width: 30%;
+    font-size: 13px;
+  }
+  #emailPara {
+    font-size: 13px;
+  }
+  #img {
+    width: 25%;
+    padding-top: 130px;
+  }
+  #column {
+    width: 70%;
+  }
+  .commonCol{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .icons {
     width: 40px;
   }
   .footHead {
@@ -361,37 +261,25 @@
 
 @media only screen and (max-width: 620px) {
   .body {
-    background-image: url(../content/green.jpg);
-    /* background-color: #008062; */
-    padding-top: 10px;
-    background-repeat: no-repeat;
     background-size: 1220px 700px;
   }
   #heading {
-    font-family: "Roboto", sans-serif;
     font-size: 45px;
-    color: white;
     padding-top: 32px;
     margin-right: auto;
     margin-left: auto;
     width: 90%;
   }
   #subheading {
-    font-family: "Poppins", sans-serif;
-    /* padding-top: 5px; */
     width: 75%;
     font-size: 25px;
     margin-left: auto;
     margin-right: auto;
-    color: white;
   }
   #input {
-    margin-top: 30px;
     width: 80%;
-    height: 50px;
   }
   #email {
-    border-radius: 4px;
     padding-left: 15px;
     font-size: 14px;
     margin-right: auto;
@@ -399,37 +287,26 @@
     margin-bottom: 10px;
   }
   #emailBtn {
-    border-radius: 4px;
     width: 100%;
     font-size: 14px;
     margin-right: auto;
     margin-left: auto;
   }
   #emailPara {
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
     font-size: 13px;
   }
   #img {
     width: 40%;
     padding-top: 190px;
-    display: block;
   }
   #column {
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
   }
   .commonCol{
     margin-left: 0px;
     margin-right: 0px;
   }
   .icons {
-    height: 50px;
-    width: 40px;
-  }
-  #deskComp {
     width: 40px;
   }
   .footHead {
@@ -450,37 +327,26 @@
 
 @media only screen and (max-width: 400px) {
   .body {
-    background-image: url(../content/green.jpg);
-    /* background-color: #008062; */
-    padding-top: 10px;
-    background-repeat: no-repeat;
     background-size: 1220px 770px;
   }
   #heading {
-    font-family: "Roboto", sans-serif;
     font-size: 42px;
-    color: white;
     padding-top: 32px;
     margin-right: auto;
     margin-left: auto;
     width: 92%;
   }
   #subheading {
-    font-family: "Poppins", sans-serif;
     /* padding-top: 5px; */
     width: 95%;
     font-size: 22px;
     margin-left: auto;
     margin-right: auto;
-    color: white;
   }
   #input {
-    margin-top: 30px;
     width: 80%;
-    height: 50px;
   }
   #email {
-    border-radius: 4px;
     padding-left: 15px;
     font-size: 14px;
     margin-right: auto;
@@ -488,37 +354,23 @@
     margin-bottom: 10px;
   }
   #emailBtn {
-    border-radius: 4px;
     width: 100%;
     font-size: 14px;
     margin-right: auto;
     margin-left: auto;
   }
   #emailPara {
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
     font-size: 13px;
   }
   #img {
     width: 50%;
     padding-top: 200px;
-    display: block;
-  }
-  #column {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
   }
   .commonCol{
     margin-left: 0px;
     margin-right: 0px;
   }
   .icons {
-    height: 50px;
-    width: 40px;
-  }
-  #deskComp {
     width: 40px;
   }
   .footHead {
@@ -539,37 +391,25 @@
 
 @media only screen and (max-width: 300px) {
   .body {
-    background-image: url(../content/green.jpg);
-    /* background-color: #008062; */
-    padding-top: 10px;
-    background-repeat: no-repeat;
-    background-size: 700px 850px;
+    background-size: 700px 800px;
   }
   #heading {
-    font-family: "Roboto", sans-serif;
     font-size: 42px;
-    color: white;
     padding-top: 32px;
     margin-right: auto;
     margin-left: auto;
     width: 92%;
   }
   #subheading {
-    font-family: "Poppins", sans-serif;
-    /* padding-top: 5px; */
     width: 95%;
     font-size: 22px;
     margin-left: auto;
     margin-right: auto;
-    color: white;
   }
   #input {
-    margin-top: 30px;
     width: 80%;
-    height: 50px;
   }
   #email {
-    border-radius: 4px;
     padding-left: 15px;
     font-size: 14px;
     margin-right: auto;
@@ -577,37 +417,26 @@
     margin-bottom: 10px;
   }
   #emailBtn {
-    border-radius: 4px;
     width: 100%;
     font-size: 14px;
     margin-right: auto;
     margin-left: auto;
   }
   #emailPara {
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
     font-size: 13px;
   }
   #img {
     width: 50%;
     padding-top: 215px;
-    display: block;
   }
   #column {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
   }
   .commonCol{
     margin-left: 0px;
     margin-right: 0px;
   }
   .icons {
-    height: 50px;
-    width: 40px;
-  }
-  #deskComp {
     width: 40px;
   }
   .footHead {
@@ -625,4 +454,3 @@
     margin: 25px 0px 40px;
   }
 }
-
