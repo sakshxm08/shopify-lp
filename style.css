@@ -14,7 +14,6 @@
 }
 #subheading {
   font-family: "Poppins", sans-serif;
-  /* padding-top: 5px; */
   font-size: 30px;
   color: white;
 }
@@ -33,12 +32,12 @@
   width: 33%;
   font-size: 17px;
 }
-.dispNone{
+.dispNone {
   display: none;
 }
 
 /*Spinner animation*/
-.spin{
+.spin {
   display: flex;
   height: 21px;
   justify-content: center;
@@ -181,7 +180,7 @@
     width: 80%;
     padding-top: 20px;
   }
-  .commonCol{
+  .commonCol {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -239,7 +238,7 @@
   #column {
     width: 70%;
   }
-  .commonCol{
+  .commonCol {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -304,7 +303,7 @@
   #column {
     width: 70%;
   }
-  .commonCol{
+  .commonCol {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -368,7 +367,7 @@
     width: 50%;
     padding-top: 200px;
   }
-  .commonCol{
+  .commonCol {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -434,7 +433,7 @@
   #column {
     width: 90%;
   }
-  .commonCol{
+  .commonCol {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -456,4 +455,3 @@
     margin: 25px 0px 40px;
   }
 }
-
